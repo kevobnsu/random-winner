@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choosing Random Winner</title>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://manindrasammana.com/">
+<meta name="twitter:title" content="Choosing Winner">
+<meta name="twitter:description" content="Make choosing easier by facing off your options.">
+<script src="confetti.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="input-area" class="input-area">
+    <p>Drag and drop files or click to start typing</p>
+</div>
+<button id="start-button" style="display: none;">Start</button>
+
+<div id="items-list" class="items-list" style="display: none;"></div>
+
+<div id="preview-area" class="preview-area" style="display: none">
+    <p id="file-count" style="display: none"></p>
+    <img id="first-file-preview" src="#" alt="Preview" class="file-preview" style="display: none">
+    <img id="second-file-preview" src="#" alt="Preview" class="file-preview" style="display: none">
+    
+</div>
+
+<div id="tournament-area" style="display: none;">
+    <div id="tournament-item1" class="tournament-item">
+    <div id="text-content" class="text-content"> </div>
+    </div>
+    <div id="tournament-item2" class="tournament-item"></div>
+    
+</div>
+<div id="h" style="display: none;"> <h1>Winner</h1> </div>
+<div id="winner-area" style="display: none;">
+
+    <div id="winner-item"></div>
+    <div id="confettiverlay" class="confettiverlay"></div>
+</div>
+
+<script src="script.js"></script>
+<script defer="defer" src="confetti.js"></script>
+
+</body>
+</html>
